@@ -2,12 +2,12 @@
 
 stdenv.mkDerivation rec {
   pname = "clarity-city";
-  version = "v1.0.0";
+  version = "1.0.0";
 
   src = fetchFromGitHub {
     owner = "vmware";
     repo = "clarity-city";
-    rev = "${version}";
+    rev = "v${version}";
     sha256 = "sha256-1POSdd2ICnyNNmGadIujezNK8qvARD0kkLR4yWjs5kA=";
   };
 
