@@ -20,7 +20,7 @@ stdenv.mkDerivation rec {
   '';
 
   meta = with lib; {
-    description = "Clarity City";
+    description = "Clarity City font";
     homepage = "https://github.com/vmware/clarity-city";
     license = licenses.ofl;
     platforms = platforms.all;
