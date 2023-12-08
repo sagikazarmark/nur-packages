@@ -19,5 +19,5 @@
   tcld = pkgs.callPackage ./pkgs/tcld { };
   # ...
 
-  inherit (pkgs.callPackages ./pkgs/node-packages { }) emmet-ls decktape reveal-md;
+  inherit (pkgs.callPackages ./pkgs/node-packages { }) decktape;
 }
