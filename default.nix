@@ -14,9 +14,7 @@
   modules = import ./modules; # NixOS modules
   overlays = import ./overlays; # nixpkgs overlays
 
-  quarto = pkgs.callPackage ./pkgs/quarto { };
   sf-pro = pkgs.callPackage ./pkgs/sf-pro { };
-  clarity-city = pkgs.callPackage ./pkgs/clarity-city { };
   sunsama = pkgs.callPackage ./pkgs/sunsama { };
   tcld = pkgs.callPackage ./pkgs/tcld { };
   # ...
